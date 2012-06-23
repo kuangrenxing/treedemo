@@ -1,0 +1,132 @@
+2011/06/26 19:53:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "tree"。' in E:\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#1 E:\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\htdocs\treedemo\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/treedemo/index.php
+2011/06/26 19:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "tree"。' in E:\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#1 E:\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\htdocs\treedemo\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/treedemo/index.php
+2011/06/26 20:22:19 [error] [php] include(CNestedSetBehavior.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\htdocs\yii\framework\YiiBase.php:395)
+Stack trace:
+#0 E:\htdocs\treedemo\protected\extensions\nestedset\TreeBehavior.php(31): spl_autoload_call()
+#1 E:\htdocs\yii\framework\YiiBase.php(308): require()
+#2 E:\htdocs\yii\framework\YiiBase.php(190): import()
+#3 E:\htdocs\yii\framework\base\CComponent.php(331): createComponent()
+#4 E:\htdocs\yii\framework\base\CComponent.php(300): Tree->attachBehavior()
+#5 E:\htdocs\yii\framework\db\ar\CActiveRecord.php(354): Tree->attachBehaviors()
+#6 E:\htdocs\yii\framework\web\CActiveDataProvider.php(63): model()
+#7 E:\htdocs\treedemo\protected\controllers\TreeController.php(109): CActiveDataProvider->__construct()
+#8 E:\htdocs\yii\framework\web\actions\CInlineAction.php(57): TreeController->actionIndex()
+#9 E:\htdocs\yii\framework\web\CController.php(300): CInlineAction->run()
+#10 E:\htdocs\yii\framework\web\CController.php(278): TreeController->runAction()
+#11 E:\htdocs\yii\framework\web\CController.php(257): TreeController->runActionWithFilters()
+#12 E:\htdocs\yii\framework\web\CWebApplication.php(328): TreeController->run()
+#13 E:\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#14 E:\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#15 E:\htdocs\treedemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/treedemo/index.php
+in E:\htdocs\treedemo\protected\extensions\nestedset\TreeBehavior.php (31)
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (109)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:25:52 [error] [php] include(Menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\htdocs\yii\framework\YiiBase.php:395)
+Stack trace:
+#0 E:\htdocs\treedemo\protected\views\layouts\column2.php(5): spl_autoload_call()
+#1 E:\htdocs\yii\framework\web\CBaseController.php(119): require()
+#2 E:\htdocs\yii\framework\web\CBaseController.php(88): TreeController->renderInternal()
+#3 E:\htdocs\yii\framework\web\CController.php(748): TreeController->renderFile()
+#4 E:\htdocs\treedemo\protected\controllers\TreeController.php(134): TreeController->render()
+#5 E:\htdocs\yii\framework\web\actions\CInlineAction.php(57): TreeController->actionAdmin()
+#6 E:\htdocs\yii\framework\web\CController.php(300): CInlineAction->run()
+#7 E:\htdocs\yii\framework\web\CController.php(278): TreeController->runAction()
+#8 E:\htdocs\yii\framework\web\CController.php(257): TreeController->runActionWithFilters()
+#9 E:\htdocs\yii\framework\web\CWebApplication.php(328): TreeController->run()
+#10 E:\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#11 E:\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\htdocs\treedemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/treedemo/index.php
+in E:\htdocs\treedemo\protected\views\layouts\column2.php (5)
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (134)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:25:53 [error] [php] include(Menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\htdocs\yii\framework\YiiBase.php:395)
+Stack trace:
+#0 E:\htdocs\treedemo\protected\views\layouts\column2.php(5): spl_autoload_call()
+#1 E:\htdocs\yii\framework\web\CBaseController.php(119): require()
+#2 E:\htdocs\yii\framework\web\CBaseController.php(88): TreeController->renderInternal()
+#3 E:\htdocs\yii\framework\web\CController.php(748): TreeController->renderFile()
+#4 E:\htdocs\treedemo\protected\controllers\TreeController.php(134): TreeController->render()
+#5 E:\htdocs\yii\framework\web\actions\CInlineAction.php(57): TreeController->actionAdmin()
+#6 E:\htdocs\yii\framework\web\CController.php(300): CInlineAction->run()
+#7 E:\htdocs\yii\framework\web\CController.php(278): TreeController->runAction()
+#8 E:\htdocs\yii\framework\web\CController.php(257): TreeController->runActionWithFilters()
+#9 E:\htdocs\yii\framework\web\CWebApplication.php(328): TreeController->run()
+#10 E:\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#11 E:\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\htdocs\treedemo\index.php(13): CWebApplication->run()
+REQUEST_URI=/treedemo/index.php
+in E:\htdocs\treedemo\protected\views\layouts\column2.php (5)
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (134)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:30:50 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:30:57 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:32:57 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:35:50 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:36:07 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:36:19 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:36:40 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:36:50 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:00 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:06 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:17 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:36 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (36)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:51 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:37:59 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:08 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:15 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:22 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:30 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:47 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
+2011/06/26 20:38:58 [warning] [application] 设置非安全（unsafe）属性 "parent" 失败。
+in E:\htdocs\treedemo\protected\controllers\TreeController.php (67)
+in E:\htdocs\treedemo\index.php (13)
